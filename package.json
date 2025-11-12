@@ -1,0 +1,15 @@
+{
+  "name": "com.fatraccoon.cadtounity",
+  "version": "0.0.1",
+  "displayName": "CadToUnity Plugin",
+  "description": "CadToUnity Plugin By FatRaccoon",
+  "unity": "6000.2",
+  "keywords": [
+    "Dwg"
+  ],
+  "author": {
+    "name": "FatRaccoon",
+    "email": "ym7596@naver.com",
+    "url": ""
+  }
+}

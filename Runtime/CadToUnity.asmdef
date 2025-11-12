@@ -1,0 +1,7 @@
+{
+  "name": "CadToUnity",
+  "references": [ "Unity.TextMeshPro" ],
+  "includePlatforms": [],
+  "autoReferenced": true,
+  "noEngineReferences": false
+}

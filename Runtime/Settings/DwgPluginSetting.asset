@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56627098326693b48b68b55e132c5d07, type: 3}
+  m_Name: DwgPluginSetting
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  defaultColor: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+  entitySettings:
+  - rid: 8181399612271362213
+  - rid: 8181399612271362214
+  - rid: 8181399612271362215
+  - rid: 8181399612271362216
+  - rid: 8181399612271362262
+  - rid: 8181399612271362261
+  _entityPrefabs:
+  - type: 0
+    prefab: {fileID: 5695655760975037069, guid: c8a423f0353ddc147bcacc4692eb5d05, type: 3}
+  - type: 1
+    prefab: {fileID: 5214606585502110964, guid: b3fa0aed2c24cdb4aa6447e2add31d4b, type: 3}
+  - type: 2
+    prefab: {fileID: 2296111028216207252, guid: 4997e8be187cfc946af10f5798b96493, type: 3}
+  - type: 3
+    prefab: {fileID: 7808837950331922244, guid: a6ff3b84509e2e9409c4af3c8599461a, type: 3}
+  - type: 4
+    prefab: {fileID: 8268499480329469515, guid: 6167ab48e333eb14e9f84070020a94e9, type: 3}
+  - type: 5
+    prefab: {fileID: 6851274017077912542, guid: 2f1c7a6cb2b74044892312f4c36a75bf, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 8181399612271362213
+      type: {class: LineSetting, ns: DwgPlugin, asm: DwgPlugin}
+      data:
+        type: 0
+        useCustomColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        defaultColor: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+        lineWidth: 0.1
+        material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - rid: 8181399612271362214
+      type: {class: LineSetting, ns: DwgPlugin, asm: DwgPlugin}
+      data:
+        type: 1
+        useCustomColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        defaultColor: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+        lineWidth: 0.1
+        material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - rid: 8181399612271362215
+      type: {class: CurveSetting, ns: DwgPlugin, asm: DwgPlugin}
+      data:
+        type: 2
+        useCustomColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        defaultColor: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+        lineWidth: 0.1
+        material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+        segment: 20
+    - rid: 8181399612271362216
+      type: {class: CurveSetting, ns: DwgPlugin, asm: DwgPlugin}
+      data:
+        type: 3
+        useCustomColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        defaultColor: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+        lineWidth: 0.1
+        material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+        segment: 60
+    - rid: 8181399612271362261
+      type: {class: TextSetting, ns: DwgPlugin, asm: DwgPlugin}
+      data:
+        type: 5
+        useCustomColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        defaultColor: {r: 0, g: 0, b: 0, a: 0}
+        fontSize: 2
+    - rid: 8181399612271362262
+      type: {class: TextSetting, ns: DwgPlugin, asm: DwgPlugin}
+      data:
+        type: 4
+        useCustomColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        defaultColor: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+        fontSize: 35

@@ -1,0 +1,6 @@
+{
+  "name": "CadToUnityEditor",
+  "references": [ "CadToUnity" ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}
