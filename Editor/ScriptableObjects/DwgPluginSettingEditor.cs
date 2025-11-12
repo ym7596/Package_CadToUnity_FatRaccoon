@@ -110,7 +110,7 @@ namespace CadToUnityPlugin.Editor
 
             // Type (display as label if set)
             var typeProperty = element.FindPropertyRelative("type");
-            var oldType = (EntityType)typeProperty.enumValueIndex;
+            var oldType = (EntityType)typeProperty.intValue;
             
             // Display the type as a label (read-only) once set
             EditorGUI.LabelField(new Rect(rect.x, y, rect.width, height), "Type", oldType.ToString());
@@ -178,7 +178,7 @@ namespace CadToUnityPlugin.Editor
             {
                 var typeProperty = _entitySettingsProperty.GetArrayElementAtIndex(i).FindPropertyRelative("type");
                 if (typeProperty != null)
-                    existingTypes.Add((EntityType)typeProperty.enumValueIndex);
+                    existingTypes.Add((EntityType)typeProperty.intValue);
             }
 
             // Then build the menu only with types not already added
